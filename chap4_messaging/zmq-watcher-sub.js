@@ -18,4 +18,3 @@ subscriber.on("message", function(data) {
 
 //connect to publisher
 subscriber.connect("tcp://localhost:5432");
-
