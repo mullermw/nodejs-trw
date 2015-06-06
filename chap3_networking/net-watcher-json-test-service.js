@@ -1,5 +1,11 @@
 #!/usr/bin/env node --harmony 
+/*
+Test script
+This test script starts a server that responds to every connection
+by sending part of a ldj message, waiting 1 second, then sending the
+second part of the message and closing the connection.
 
+ */
 "use strict";
 const
 
